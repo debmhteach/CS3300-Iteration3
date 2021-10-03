@@ -31,7 +31,7 @@ Whenever you start working on a Rails project, the first thing you should do is 
 ```ruby
 bundle config set --local without 'production'
 ```
-You only need to specify `--without production` the first time, as this setting will be remembered on future runs of Bundler for this project.
+You only need to specify `without production` the first time, as this setting will be remembered on future runs of Bundler for this project.
 
 At this point you should be able to run the app locally
 ```ruby
